@@ -12,7 +12,6 @@ app.get('/newUser', (req,res) => {
 
 
     app_counter++;
-    access_counter++;
     // console.log("app_counter : " + app_counter);
     res.status(200).end();
 });
