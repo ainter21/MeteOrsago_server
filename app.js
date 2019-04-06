@@ -29,6 +29,11 @@ app.get('/newAccess', (req, res) => {
     res.status(200).end();
 });
 
+setInterval(() => {
+
+    
+}, 60 * 1000 * 30);
+
 
 app.listen(PORT, () => {
     console.log("Listening on port " + PORT);
